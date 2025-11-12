@@ -1,5 +1,4 @@
-/* 
-  Mad Lib Starter (Beginner JS)
+/* Mad Lib Starter (Beginner JS)
 
   GOAL:
   - Ask the user for several words using prompt()
@@ -34,7 +33,7 @@ let someone = prompt("Give me a name of a celebrity?");
 let vehicle = prompt("Give me a vehicle?");
 let verb2 = prompt("Give me another verb: that does`t end in -ing?");
 let emotion2 = prompt("Give me another emotion?");
-let action = prompt("Give me a exercise that starts with do a?");
+let action = prompt("Give me a exercise that fills in the blank'do a...'? ");
 let basic = prompt("Give me a basic adjective?");
 
 /* 2) BUILD YOUR STORY STRING
@@ -48,8 +47,8 @@ let story = `<p>One day ${userName} and ${sidekick} went to ${place}.; </p>
 <p> They were very ${emotion} because that was their favorite food.;</p>
 <p> ${userName} and ${sidekick} decided to ${verb} the ${animal}.;</p>
 <P> ${someone} driving past them, saw this and stopped their ${vehicle} to ${verb2}.;</p>
-<p> ${userName} was very ${emotion2} about this and decided to ${action};</p>
-<P> The ${someone} thought this was really ${basic} and put them on social media.;</p>
+<p> ${userName} was very ${emotion2} about this and decided to do a ${action};</p>
+<P> ${someone} thought this was really ${basic} and put them on social media.;</p>
 <p> They became famous! The end. ;</p>` 
 
 

@@ -17,18 +17,17 @@
     <script src="app.js" defer></script>
 </head>
 
-<body class="bg-light">
-    <header class="py-4 border-bottom bg-white">
-        <div class="container">
+<body>
+    <header class="py-4 border-bottom">
+        <div class="rbox container">
             <h1 class="h3 mb-1">Mad Lib Story</h1>
-            <p class="text-muted mb-0">
-                Build a story using <code>prompt()</code>, variables, template literals, and
-                <code>innerHTML</code>. (No conditionals yet!)
+            <p class="mb-0 coolors">
+                Create your very own Mad Lib!!!!
             </p>
         </div>
     </header>
 
-    <main class="container my-4">
+    <main class="back container my-4">
         <!-- Responsive example: two columns on md+, stacked on mobile -->
         <div class="row g-4">
             <div class="col-12 col-md-7">
@@ -39,9 +38,8 @@
                         <!-- STUDENTS: This is the element you will target with getElementById(...) -->
                         <div id="madlib-output" class="mt-3">
                             <!-- Replace this content with your generated story using .innerHTML -->
-                            <p class="text-muted mb-0">
-                                When your page loads and your JavaScript runs, your completed Mad Lib
-                                will appear here.
+                            <p class="mb-0">
+                                When the person reading this answers all of my questions above, then maybe I let you see your story, or not. It depends if the story is good or if I feel like it. 
                             </p>
                         </div>
                     </div>
@@ -50,40 +48,23 @@
 
             <!-- Simple “About / Instructions” column -->
             <div class="col-12 col-md-5">
-                <div class="card shadow-sm">
+                <div class="rbox card shadow-sm">
                     <div class="card-body">
-                        <h2 class="h6">What to Do</h2>
+                        <h2 class="h6">Goals</h2>
                         <ol class="mb-3">
-                            <li>Use <code>prompt()</code> to ask the user for words (noun, verb, adjective, place,
-                                etc.).</li>
-                            <li>Store each answer in a clearly named variable using <code>let</code> or
-                                <code>const</code>.</li>
-                            <li>Create a story string using template literals (backticks) and insert variables with
-                                <code>${}</code>.</li>
-                            <li>Use <code>document.getElementById()</code> to select <code>#madlib-output</code> and set
-                                <code>.innerHTML</code> to your story.</li>
-                                <li> Customize the CSS and overall style of this site to make it your own // fit the story you wrote.</li>
-                            <li>Delete these instructions when you have finished and replace them with an explanation of what this project is. </li>
+                            <li>This project is an easy intro into understanding how javascript works and interacts with HTML. </li>
+                            <li>After completing this project, you will understand how to use <code> prompt()</code>, saving answers into variables with let and const, building a story with template literals and what inner html is.</li>
+                            <li>This project also helps with creativity and design of the final output. </li>
                         </ol>
-
-                        <h3 class="h6">Bootstrap Note</h3>
-                        <p class="mb-0">
-                            This layout uses <code>.row</code> and <code>.col</code> so it’s responsive:
-                            it stacks on phones and shows two columns on larger screens.  <Strong>Dont ruin this when you eidt the site!</Strong>
-                        </p>
                     </div>
-                </div>
-                <div class="small text-muted mt-3">
-                    Tip: Commit early and often with clear messages. Publish on GitHub Pages and add your live link to
-                    your class gallery.
                 </div>
             </div>
         </div>
     </main>
 
-    <footer class="py-4 border-top bg-white">
-        <div class="container small text-muted">
-            © 2025 Your Name • Web 2
+    <footer class="py-4 border-top coolors">
+        <div class="container small rbox">
+            © 2025 Madison Beard • Web 2
         </div>
     </footer>
 </body>

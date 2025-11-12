@@ -1,4 +1,11 @@
-/* Keep styles simple and readable for beginners */
+/* 
+#11B5E4
+#2C4251
+#D16666
+#B6C649
+#E1B9A2
+*/
+
 :root {
   --card-radius: 1rem;
 }
@@ -11,4 +18,28 @@
   min-height: 6rem; /* keeps the card from collapsing before story appears */
   line-height: 1.6;
   font-size: 1.05rem;
+}
+body{
+  background-color: #D16666;
+}
+.coolors{
+  color:#B6C649;                /*2C4251*/
+  font-weight: bold;
+}
+.container{
+  background-color: #F2E7E1;
+  border-radius: 15px;
+  padding: 20px;
+}
+.rbox{
+  border-radius: 15px;
+  background-color:#2C4251;     /*#B6C649*/
+  color:#B6C649;
+} 
+.card{
+  background-color:#2C4251;     /*#B6C649*/
+  color:#B6C649;
+}
+.back{
+  background-color: #E1B9A2;
 }
