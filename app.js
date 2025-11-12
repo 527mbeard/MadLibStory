@@ -45,7 +45,7 @@ let story = `<p>One day ${userName} and ${sidekick} went to ${place}.; </p>
 <p> ${userName} was really ${adjective} and ${adjective2}.;</p>
 <p> Suddenly, they saw a ${animal} that was ${verbEndingInIng} near a pile of ${food}.;</p>
 <p> They were very ${emotion} because that was their favorite food.;</p>
-<p> ${userName} and ${sidekick} decided to ${verb} the ${animal}.;</p>
+<p> ${userName} and ${sidekick} decided to ${verb} with the ${animal}.;</p>
 <P> ${someone} driving past them, saw this and stopped their ${vehicle} to ${verb2}.;</p>
 <p> ${userName} was very ${emotion2} about this and decided to do a ${action};</p>
 <P> ${someone} thought this was really ${basic} and put them on social media.;</p>
